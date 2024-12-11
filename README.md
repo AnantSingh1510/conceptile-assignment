@@ -8,7 +8,8 @@ Description: Starts a new quiz session.
 
 Response:
 
-```{
+```
+{
   "id": 1,
   "answeredQuestions": [],
   "correctAnswers": 0,
@@ -26,7 +27,8 @@ sessionId (required): ID of the active quiz session.
 
 Response:
 
-```{
+```
+{
   "id": 1,
   "text": "What is the capital of France?",
   "optionA": "Paris",
@@ -61,7 +63,8 @@ Parameters:
 sessionId (required): ID of the active quiz session.
 
 Response:
-```{
+```
+{
   "id": 1,
   "answeredQuestions": [1, 2],
   "correctAnswers": 1,
