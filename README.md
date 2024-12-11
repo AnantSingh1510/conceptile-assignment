@@ -23,7 +23,7 @@ Endpoint: GET `/api/quiz/question`
 
 Parameters:
 
-sessionId (required): ID of the active quiz session.
+`sessionId` (required): ID of the active quiz session.
 
 Response:
 
@@ -44,11 +44,11 @@ Endpoint: POST `/api/quiz/submit`
 
 Parameters:
 
-sessionId (required): ID of the active quiz session.
+`sessionId` (required): ID of the active quiz session.
 
-questionId (required): ID of the question being answered.
+`questionId` (required): ID of the question being answered.
 
-answer (required): Selected option (e.g., "A").
+`answer` (required): Selected option (e.g., "A").
 
 Response:
 
@@ -60,7 +60,7 @@ Endpoint: GET `/api/quiz/summary`
 
 Parameters:
 
-sessionId (required): ID of the active quiz session.
+`sessionId` (required): ID of the active quiz session.
 
 Response:
 ```
